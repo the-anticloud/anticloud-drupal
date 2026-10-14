@@ -1,0 +1,9 @@
+# AIOSS ledger v1
+# project: POLICE_CIVIC/DRUPAL
+# records: 5
+# head: 7f513cc429ee7398ba8ea934ed239f92aa216ab5f9c7521e8d709757371439a6
+{"digest": "f47b1d0bc7985954fd5107a6fb9bd7c8bb1f024785835f9893ca56ca74a010c3", "kind": "bench-report", "path": "BENCH.json", "payload_sha3": "1f5b218d581f03fc20ad4feda671d77ffa1b12a7576fea43b16ba98e0617bc7a", "prev": "5a5a9db5fb708ae61804306200e7a9e31853dde596c5f14d2303d4349fe14b2d", "seq": 0, "ts": "2026-10-09T05:54:02Z"}
+{"digest": "8004054393c93f9f66af62ee0eea11a9056a9235aaaf4f48dbeb132ecf00c4d9", "kind": "result-register", "path": "ISOLATED_LAB_RESULTS/03_Result_Register.md", "payload_sha3": "cb8c9d862b1fdda1921bfeb12d3dbd3f0929b56d6423f1cd293b244451e70aef", "prev": "f47b1d0bc7985954fd5107a6fb9bd7c8bb1f024785835f9893ca56ca74a010c3", "seq": 1, "ts": "2026-10-09T05:54:02Z"}
+{"digest": "4976d69fcbf5716da365f306aa96e42ad9274d99fde62fcba98493d03645ae70", "kind": "readme", "path": "README.md", "payload_sha3": "cbff166a4ca40b14ce4ea468b660d16bab6d0df4efa223bdd6fbffe273e633a4", "prev": "8004054393c93f9f66af62ee0eea11a9056a9235aaaf4f48dbeb132ecf00c4d9", "seq": 2, "ts": "2026-10-09T05:54:02Z"}
+{"digest": "77cb59ed6874ea6a42dfe3f40525e4948fcb44ac472b87466e77f1fea9be0700", "kind": "licence", "path": "ANTICOMMONS_LICENSE.md", "payload_sha3": "93f58e7de41a2a424cad0fe9355fad61aef633349e1319cfa9e8c3ad669cbb41", "prev": "4976d69fcbf5716da365f306aa96e42ad9274d99fde62fcba98493d03645ae70", "seq": 3, "ts": "2026-10-09T05:54:02Z"}
+{"digest": "7f513cc429ee7398ba8ea934ed239f92aa216ab5f9c7521e8d709757371439a6", "kind": "notice", "path": "NOTICE", "payload_sha3": "b7ebf50c05fcab56de3461037822e1bc585ea12a474fd32732a6707c04582eab", "prev": "77cb59ed6874ea6a42dfe3f40525e4948fcb44ac472b87466e77f1fea9be0700", "seq": 4, "ts": "2026-10-09T05:54:02Z"}
