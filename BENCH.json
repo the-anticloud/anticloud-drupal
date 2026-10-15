@@ -2,13 +2,11 @@
  "schema": "anticloud.tier-bench/1",
  "project": "DRUPAL",
  "source": {
-  "repo_path": "E:\\fenta\\Downloads\\The Anticloud\\ANTICLOUD_REPOS\\POLICE_CIVIC\\DRUPAL\\UPSTREAM_CLONE",
   "git": {
-   "head": "5520859b3d095f865c18e599f3839c85e119d160",
-   "url": "https://github.com/getgrav/grav",
-   "branch": "develop",
-   "committed_at": "",
-   "sha_verified_from": "GitHub API substitute swap 2026-10-12 | unified 2026-10-14 (API-exists + content/clone anchor)"
+   "url": "https://github.com/drupal/drupal",
+   "head": "ad11ba71c0f09b856e45dfdb8db155b5a588712d",
+   "sha_verified_from": "revendor 2026-10-15: GitHub API commit lookup",
+   "previous_substitute": "https://github.com/getgrav/grav"
   }
  },
  "metrics": {

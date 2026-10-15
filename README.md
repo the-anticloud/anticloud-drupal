@@ -1,14 +1,12 @@
 # DRUPAL
 
-> Grav is a **Fast**, **Simple**, and **Flexible**, file-based Web-platform. There is **Zero** installation required. Just extract the ZIP archive, and you are already up and running. It follows similar principles to other flat-file CMS platforms, but has a different design philosophy than most. Grav comes with a powerful **Package Management System** to allow for simple installation and upgrading of plugins and themes, as well as simple updating of Grav itself.
+> Drupal is an open source content management platform supporting a variety of websites ranging from personal weblogs to large community-driven websites. For more information, visit the Drupal website, [Drupal.org][Drupal.org], and join the [Drupal community][Drupal community].
 
-**Category:** POLICE_CIVIC · **Ecosystem:** unknown · **Vendored upstream:** https://github.com/getgrav/grav · **Pinned commit:** `5520859b3d095f865c18e599f3839c85e119d160` · **Vendor:** Anticloud FZ LLE
-
-> **Note:** this package vendors `https://github.com/getgrav/grav` as the implementation for the `DRUPAL` slot. The vendored repository name differs from the package name; the pin above is the exact commit vendored here.
+**Category:** POLICE_CIVIC · **Ecosystem:** unknown · **Vendored upstream:** https://github.com/drupal/drupal · **Pinned commit:** `ad11ba71c0f09b856e45dfdb8db155b5a588712d` · **Vendor:** Anticloud FZ LLE
 
 ## What This Project Is
 
-Grav is a **Fast**, **Simple**, and **Flexible**, file-based Web-platform. There is **Zero** installation required. Just extract the ZIP archive, and you are already up and running. It follows similar principles to other flat-file CMS platforms, but has a different design philosophy than most. Grav comes with a powerful **Package Management System** to allow for simple installation and upgrading of plugins and themes, as well as simple updating of Grav itself.
+Drupal is an open source content management platform supporting a variety of websites ranging from personal weblogs to large community-driven websites. For more information, visit the Drupal website, [Drupal.org][Drupal.org], and join the [Drupal community][Drupal community].
 
 This is the upstream project, vendored at the pinned commit above and packaged offline-first. The 12 improvements Anticloud adds live in `anticloud/` and are described under *Anticloud Overlay* below. Every fact in this file traces to a file in this directory.
 
@@ -20,7 +18,14 @@ This is the upstream project, vendored at the pinned commit above and packaged o
 
 ## Usage
 
-See the upstream README (linked above) for usage. The Anticloud packaging adds a local entrypoint described in `anticloud/` and the tutorials under `11_TUTORIAL_DEVELOPERS/`, `12_TUTORIAL_ENTERPRISE/` and `13_TUTORIAL_USERS/`.
+For a brief introduction, see [USAGE.txt](/core/USAGE.txt). You can also find
+guides, API references, and more by visiting Drupal's [documentation
+page][documentation].
+
+You can quickly extend Drupal's core feature set by installing any of its
+[thousands of free and open source modules][modules]. With Drupal and its
+module ecosystem, you can often build most or all of what your project needs
+before writing a single line of code.
 
 ## Anticloud Overlay
 
@@ -62,7 +67,7 @@ The upstream licence is preserved in `LICENSE` and `THIRD_PARTY_LICENSES/`. The 
 SHA3-256 of `BENCH.json`:
 
 ```
-cf4a857d705c53c6698edf9f662efced8c27e873436416ea5fac5962e7cc08f6
+39c195cd61599d3034281426be12f5a11717ad6ee1e3f480f8c8fb9501cea33f
 ```
 
 Recompute the hash above and compare — any drift means the package has been tampered with and the seal is invalid. This is a self-assessment; no external audit has been performed and a SOC 2 / NIST independent audit is committed post-funding.
