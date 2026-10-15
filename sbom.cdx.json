@@ -1,0 +1,38 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:aa2c02a2-7ebe-577f-9d6a-d18abfadaa80",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-12T06:05:12Z",
+    "component": {
+      "type": "application",
+      "name": "DRUPAL",
+      "version": "5520859b3d09",
+      "bom-ref": "pkg:generic/anticloud/DRUPAL@5520859b3d09",
+      "purl": "pkg:generic/anticloud/DRUPAL@5520859b3d09",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "anticloud:source-commit",
+        "value": "5520859b3d095f865c18e599f3839c85e119d160"
+      },
+      {
+        "name": "anticloud:source-url",
+        "value": ""
+      },
+      {
+        "name": "anticloud:tier",
+        "value": "tier-agent"
+      }
+    ]
+  },
+  "components": []
+}
